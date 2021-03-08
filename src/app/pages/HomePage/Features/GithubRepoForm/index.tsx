@@ -55,8 +55,8 @@ export function GithubRepoForm() {
         <FormLabel>Github Username</FormLabel>
         <InputWrapper>
           <Input
-            type="text"
-            placeholder="Type any Github username"
+            type='text'
+            placeholder='Type any Github username'
             value={username}
             onChange={onChangeUsername}
           />
